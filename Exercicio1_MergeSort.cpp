@@ -68,6 +68,8 @@ int main()
 {
     //Exemplo com entrada de inteiros:
     std::vector<int> vector_in = { 15,7,55,23,24,10,11,8,19,50 };
+    
+    //std::vector<std::string> vector_in = {"E", "X", "A", "M", "P", "L", "E"};
 
     //Exemplo com entrada de string:
     //std::vector<std::string> vector_in = { "gadf","eadf","etdf","hfaf","naw","zqdd","raf","fbf","zaf","ado" };
