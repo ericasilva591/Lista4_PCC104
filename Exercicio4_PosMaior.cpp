@@ -27,7 +27,7 @@ void posmaior(std::vector<T>& v, int l, int r, T& max_index) {
         }
     }
     else if (r - l > 1) {
-        T max2 = 0;
+        int max2 = 0;
 
         posmaior(v, l, std::floor((r + l) / 2), max_index);
         posmaior(v, std::floor((r + l) / 2) + 1, r, max2);
