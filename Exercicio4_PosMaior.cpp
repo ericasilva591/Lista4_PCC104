@@ -14,7 +14,7 @@ void print_vector(std::vector<T>& v) {//função para imprimir um vetor
 
 
 template <typename T>
-void posmaior(std::vector<T>& v, int l, int r, T& max_index) {
+void posmaior(std::vector<T>& v, int l, int r, int& max_index) {
     if (l == r) {
         max_index = l;
     }
